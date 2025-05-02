@@ -48,8 +48,8 @@ Using Microsoft's [Quantum Development Kit (QDK)](https://learn.microsoft.com/en
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/quantum-teleportation-qsharp.git
-cd quantum-teleportation-qsharp
+git clone https://github.com/RubyCloud225/Learning_QuantumML.git
+cd quantumwrapper.qsharp
 
 # Restore packages and run the simulator
 dotnet run
