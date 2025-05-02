@@ -1,6 +1,4 @@
-Here’s a **summary** and a simplified **architecture diagram** for the described **Quantum Data Loader (QDL)** algorithm based on **tensor encoding**.
-
----
+https://arxiv.org/pdf/2504.20989 influence
 
 ## 📌 **Summary: Quantum Data Loader (QDL)**
 
