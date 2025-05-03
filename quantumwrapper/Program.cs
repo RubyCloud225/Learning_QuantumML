@@ -1,29 +1,18 @@
-﻿namespace QuantumWrapper
-{
-    class program
+﻿using Microsoft.Quantum.Simulation.Simulators;
+
+namespace QuantumWrapper {
+    public class QuantumWrapper
     {
-        static async Task Main(string[] args)
+        public async Task RunQuantumProgramAsync()
         {
-            // Initialize the QuantumWrapper
-            var quantumWrapper = new QuantumWrapper("Your-Quantum-Provider-Connection-String");
+            // Initialize the quantum simulator
             using var sim = new QuantumSimulator();
-            var qsharp = new QSharpClient(sim);
-            var BellState = await qsharp.RunAsync(BellState, new QSharpClientOptions
-            {
-                // Set any options you need for the Q# client here
-                // For example, you can set the number of shots or the backend to use
-                Shots = 1024,
-                Backend = "QuantumSimulator"
-            });
-            var result = await qsharp.RunAsync(teleportation, new QSharpClientOptions
-            {
-                Shots = 1024,
-                Backend = "QuantumSimulator"
-            });
-            
-            // Call the method to run the quantum program
-            await quantumWrapper.RunQuantumProgramAsync();
+
+            // Ensure the BellState operation is correctly defined and referenced
+            var bellState = await QuantumWrapper.BellState.Run(sim);
+            Console.WriteLine($"Result: {bellState}");
+            var teleportationResult = await QuantumWrapper.Teleportation.Run(sim);
+            Console.WriteLine($"Teleportation Result: {teleportationResult}");
         }
     }
-    
 }

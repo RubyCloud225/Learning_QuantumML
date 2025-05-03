@@ -11,7 +11,6 @@ Efficiently load high-dimensional classical data (like images or tensors) into q
 
 Given a classical tensor $x \in \mathbb{R}^{d_1 \times \cdots \times d_k}$, it’s encoded into a **quantum state** using:
 
-$$
 |x\rangle = \frac{1}{\|x\|} \sum_{i_1 \in [d_1]} \cdots \sum_{i_k \in [d_k]} x_{i_1,\ldots,i_k} \, |e_{d_1,i_1}\rangle \otimes \cdots \otimes |e_{d_k,i_k}\rangle
 $$
 
@@ -77,4 +76,3 @@ Here's a simplified conceptual view of the architecture:
 
 ---
 
-Would you like a proper vector diagram image version of this?

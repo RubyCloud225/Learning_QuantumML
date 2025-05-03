@@ -1,0 +1,6 @@
+/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/Debug/net8.0/quantumwrapper.csproj.AssemblyReference.cache
+/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/Debug/net8.0/quantumwrapper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/Debug/net8.0/quantumwrapper.AssemblyInfoInputs.cache
+/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/Debug/net8.0/quantumwrapper.AssemblyInfo.cs
+/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/Debug/net8.0/quantumwrapper.csproj.CoreCompileInputs.cache
+/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/Debug/net8.0/quantumwrapper.sourcelink.json

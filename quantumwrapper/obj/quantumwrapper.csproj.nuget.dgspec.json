@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj": {}
+    "/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj": {}
   },
   "projects": {
-    "/workspaces/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj": {
+    "/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj",
+        "projectUniqueName": "/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj",
         "projectName": "quantumwrapper",
-        "projectPath": "/workspaces/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Learning_QuantumML/quantumwrapper/obj/",
+        "projectPath": "/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/quantumwrapper.csproj",
+        "packagesPath": "/Users/catherinepemblington/.nuget/packages/",
+        "outputPath": "/Users/catherinepemblington/Documents/GitHub/Learning_QuantumML/quantumwrapper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/catherinepemblington/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,11 +37,22 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Quantum.Simulators": {
+              "target": "Package",
+              "version": "[0.26.2101, )"
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.26.2101, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,12 +64,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
