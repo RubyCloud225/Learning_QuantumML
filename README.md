@@ -1,14 +1,14 @@
 # Learning_QuantumML
-# 🧠 Quantum Teleportation in Q#  
+# Quantum Teleportation in Q#  
 **Learn Quantum Computing by Building a Real Quantum Teleportation Protocol**
 
 ---
 
-## 📘 Overview
+## Overview
 
-This open-source project demonstrates one of the most iconic and foundational protocols in quantum computing: **Quantum Teleportation**.
+This open-source project is a public portfolio for learning the foundational protocols in quantum computing: **Quantum Teleportation**.
 
-Using Microsoft's [Quantum Development Kit (QDK)](https://learn.microsoft.com/en-us/azure/quantum/), this educational project walks you through the mechanics of:
+Using Microsoft's [Quantum Development Kit (QDK)](https://learn.microsoft.com/en-us/azure/quantum/), I am looking at the the mechanics of:
 
 - Creating **Bell states** (entangled qubits)
 - Applying **quantum gates** (like `H`, `CNOT`, `X`, and `Z`)
@@ -17,7 +17,7 @@ Using Microsoft's [Quantum Development Kit (QDK)](https://learn.microsoft.com/en
 
 ---
 
-## 🎯 What You’ll Learn
+## My takeaways from this
 
 - Basic Q# syntax and project structure
 - How to entangle qubits and measure quantum states
@@ -26,17 +26,17 @@ Using Microsoft's [Quantum Development Kit (QDK)](https://learn.microsoft.com/en
 
 ---
 
-## 🧪 How It Works (In Plain English)
+## How It Works (I hope, Still learning here)
 
 1. **Prepare an unknown quantum state** (e.g. `|+⟩`)
-2. **Entangle two qubits** (Alice’s and Bob’s) using a Bell state
-3. **Alice performs operations and measurements** on her qubits
-4. **Alice sends two classical bits** to Bob
-5. **Bob applies correction gates** to recover the original state
+2. **Entangle two qubits** of Person A and B using a Bell state
+3. **Person A performs operations and measurements** on qubits
+4. **Person A sends two classical bits** to Person B
+5. **Person B applies correction gates** to recover the original state
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - [.NET 6.0 SDK or later](https://dotnet.microsoft.com/en-us/download)
 - [Visual Studio Code](https://code.visualstudio.com/) or your preferred editor
@@ -44,7 +44,7 @@ Using Microsoft's [Quantum Development Kit (QDK)](https://learn.microsoft.com/en
 
 ---
 
-## 🚀 How to Run
+## How to Run- (though not published yet)
 
 ```bash
 # Clone the repo
