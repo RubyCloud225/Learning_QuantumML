@@ -1,4 +1,4 @@
-namespace QuantumWrapper
+namespace QuantumOperations
 {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;

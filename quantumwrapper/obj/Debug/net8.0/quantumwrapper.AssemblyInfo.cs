@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("quantumwrapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03ebd60ff6267eb429df2399bf2fed420900ec7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ce335a5a64645de66ca7e62cb6b1f9ecb0c5640")]
 [assembly: System.Reflection.AssemblyProductAttribute("quantumwrapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("quantumwrapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

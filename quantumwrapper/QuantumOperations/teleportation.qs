@@ -1,4 +1,4 @@
-namespace QuantumWrapper
+namespace QuantumOperations
 {
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Diagnostics;

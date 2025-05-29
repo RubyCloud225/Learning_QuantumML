@@ -1,18 +1,19 @@
 ﻿using Microsoft.Quantum.Simulation.Simulators;
-
+using Microsoft.Quantum.Simulation.Core;
 namespace QuantumWrapper {
     public class QuantumWrapper
     {
-        public async Task RunQuantumProgramAsync()
+        public static void Main(string[] args)
         {
-            // Initialize the quantum simulator
-            using var sim = new QuantumSimulator();
+            // Create a quantum simulator instance
+            using (var simulator = new QuantumSimulator())
+            {
+                // Call the BellState operation
+                var result = QuantumOperations.BellState.Run(simulator).Result;
 
-            // Ensure the BellState operation is correctly defined and referenced
-            var bellState = await QuantumWrapper.BellState.Run(sim);
-            Console.WriteLine($"Result: {bellState}");
-            var teleportationResult = await QuantumWrapper.Teleportation.Run(sim);
-            Console.WriteLine($"Teleportation Result: {teleportationResult}");
+                // Print the result
+                Console.WriteLine($"Bell state: {result}");
+            }
         }
     }
 }
